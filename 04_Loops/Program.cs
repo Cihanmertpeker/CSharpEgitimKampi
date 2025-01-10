@@ -41,7 +41,27 @@ namespace _04_Loops
 
 
 
+
+
             #endregion
+
+
+            //Klavyeden girilen 3 basamaklı sayının basamakları toplamını hesaplayan kodu yazınız.
+            //456
+
+            Console.Write("Sayıyı Giriniz: ");
+            int number = int.Parse(Console.ReadLine());
+            int ones, tens, hundreds;
+            int sum;
+
+            ones = number % 10;
+            tens = (number % 100) / 10;
+            hundreds = number / 100;
+
+
+            Console.WriteLine(ones+ " - " + tens+" - " + hundreds);
+            sum = ones+tens+hundreds;
+            Console.WriteLine(sum);
 
             Console.Read();
         }
