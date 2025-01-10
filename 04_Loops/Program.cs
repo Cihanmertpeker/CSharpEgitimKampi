@@ -30,6 +30,17 @@ namespace _04_Loops
             //    Console.WriteLine("Yaşasın Cumhuriyet!");
             //}
 
+
+            //int bacterium = 1;
+
+            //for (int i = 1; i <= 24; i++)
+            //{
+            //    bacterium *= 2;
+            //    Console.WriteLine(i + ".saat sonunda: " +bacterium);
+            //}
+
+
+
             #endregion
 
             Console.Read();
